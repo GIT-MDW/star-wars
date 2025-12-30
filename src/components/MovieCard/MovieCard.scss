@@ -1,0 +1,72 @@
+
+.movie-card {
+  &-title {
+    display: flex;
+    align-items: center;
+
+    .ant-typography {
+      font-size: 18px;
+    }
+  }
+
+  &-episode-tag {
+    margin-left: 8px;
+  }
+
+  &-icon {
+    color: $primary-color;
+  }
+
+  &-info-item {
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-info-label {
+    font-weight: 600;
+    color: $text-color;
+    margin-right: 8px;
+  }
+
+  &-info-value {
+    color: $text-color-secondary;
+  }
+
+  &-opening-crawl {
+    margin-top: 8px;
+    color: $text-color-secondary;
+    font-style: italic;
+  }
+
+  &-resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &-resource-button {
+    padding: 6px 12px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 13px;
+    color: $primary-color;
+    transition: all 0.2s;
+    flex: 0 0 auto;
+
+    &:hover {
+      background-color: #e6f7ff;
+      border-color: $primary-color;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+
+}
+

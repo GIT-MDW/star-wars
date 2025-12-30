@@ -1,0 +1,11 @@
+
+.empty-state {
+  padding: $spacing-lg 0;
+  margin: $spacing-md 0;
+
+  .ant-empty-description {
+    color: $text-color-secondary;
+    font-size: 13px;
+  }
+}
+
